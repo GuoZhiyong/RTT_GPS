@@ -1,0 +1,5 @@
+---- rt_usb_host_init Matches (4 in 4 files) ----
+Application.c (bsp\stm32f40x_car\applications):  rt_usb_host_init();
+Components.c (components\init):	rt_usb_host_init();
+Usbhost.c (components\drivers\usb\usbhost\core):void rt_usb_host_init(void)
+Usb_host.h (components\drivers\include\drivers):void rt_usb_host_init(void);
